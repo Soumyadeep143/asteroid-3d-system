@@ -4,8 +4,8 @@ from sklearn.model_selection import train_test_split
 import joblib
 import os
 
-DATASET_PATH = "../../../train_dataset.csv"
-MODEL_DIR = "../model"
+DATASET_PATH = "../train_dataset.csv"
+MODEL_DIR = "../../model"
 MODEL_PATH = os.path.join(MODEL_DIR, "model.pkl")
 
 def train():

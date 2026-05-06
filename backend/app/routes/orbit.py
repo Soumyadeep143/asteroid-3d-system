@@ -4,7 +4,7 @@ import os
 
 router = APIRouter()
 
-DATASET_PATH = os.path.join(os.path.dirname(__file__), "../../../../train_dataset.csv")
+DATASET_PATH = os.path.join(os.path.dirname(__file__), "../../train_dataset.csv")
 
 @router.get("/asteroid/{index}")
 async def get_asteroid(index: int):
